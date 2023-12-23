@@ -1,0 +1,112 @@
+@media (max-width: 768px) {
+.hero_title{
+    padding-top: 3em;
+}
+.about_us_left{
+    padding-top: 10%;
+}
+.adv_title{
+    padding-top: 10%;
+}
+.adv{
+    height: 40vh;
+}
+.galeria_grid{
+    grid-template-columns: repeat(2, 1fr);
+}
+.footer_right{
+    padding-top: 10%;
+}
+.maps{
+    margin-top: 10%;
+}
+}
+
+@media (max-width: 414px) {
+.hero_title{
+    /* text-align: center; */
+    font-size: 40px;
+}    
+.hero_text{
+margin-top: 1em;
+}
+.about_us{
+    grid-template-columns: 1fr;
+}
+.about_us_text{
+    max-width: 100%;
+}
+.about_us_title{
+    text-align: center;
+}
+.about_us_right{
+    margin-top: 2em;
+}
+.adv_title{
+    padding-top: 20%;
+    font-size: 25px;
+    padding-bottom: 5%;
+}
+.galeria_grid{
+    grid-gap: 1%;
+    grid-template-columns: 1fr;
+}
+.galeria_item{
+    display: flex;
+    justify-content: center;
+}
+.maps{
+    margin-top: 35%;
+}
+.footer_item a{
+    font-size: 15px;
+}
+.footer{
+    flex-direction: column;
+}
+.footer_item img{
+    width: 10%;
+}
+.footer_right{
+    display: flex;
+    justify-content: center;
+}
+.menu_category{
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+.menu_category a{
+    font-size: 15px;
+}
+.menu_item{
+    margin-top: 10%;
+    grid-template-columns: 1fr;
+    gap: 2em;
+}
+.menu_item_img{
+    justify-content: center;
+}
+.menu_item_title:not(:first-child){
+    margin: 10em 0 5em 0;
+}
+.menu_item_overview{
+    font-size: 20px;
+}
+.menu_item_price{
+    font-size: 40px;
+}
+.menu_position:not(:first-child){
+    margin-top: 10em;
+}
+.menu_item_title{
+    font-size: 40px;
+    color: #E35C57;
+    font-weight: 900;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+
+    backdrop-filter: blur(10px); /* Измените значение по вашему вкусу */
+    z-index: 1;
+}
+}
